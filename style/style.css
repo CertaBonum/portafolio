@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Nunito+Sans:wght@300&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #faaca8;
+  background-image: linear-gradient(19deg, #faaca8 0%, #ddd6f3 100%);
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+header {
+  text-align: right;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+  text-align: left;
+  color: black;
+  padding: 2rem 3rem 0rem;
+}
+
+li {
+  display: inline-block;
+  padding: 0.5rem 0.1rem;
+}
+a {
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  list-style: none;
+  color: black;
+}
+a:hover {
+  font-size: larger;
+  color: white;
+  font-style: italic;
+}
+main {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+section {
+  background-image: url(../images/fondo_blanco.jpg);
+}
+
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  word-spacing: 0.3;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2.5rem;
+  word-spacing: 0.3rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: justify;
+  line-height: 3rem;
+  word-spacing: 0.4rem;
+  letter-spacing: 0.3rem;
+}
+img.de_perfil {
+  border-style: solid;
+  border-radius: 0.9rem;
+  border-color: white;
+  border-width: 1rem;
+  box-shadow: 28px 4px 32px 23px rgba(0, 0, 0, 0.1);
+}
+footer {
+  text-align: center;
+}
