@@ -44,8 +44,10 @@ a {
   padding: 0rem 0.4rem;
   list-style: none;
   color: black;
+  border: transparent;
 }
-a:hover {
+a:hover,
+.active {
   color: white;
   font-style: italic;
   font-size: 2.2rem;
