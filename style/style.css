@@ -16,57 +16,67 @@ body {
   height: 100vh;
 }
 header {
-  text-align: right;
-  font-size: 2rem;
+  height: 5rem;
+  width: 100vw;
   text-transform: uppercase;
+  padding: 2rem 4rem 0rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+li {
+  display: inline;
 }
 h1 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 3rem;
   font-weight: bolder;
-  text-align: left;
   color: black;
-  padding: 2rem 3rem 0rem;
 }
 
-li {
-  display: inline-block;
-  padding: 0.5rem 0.1rem;
-}
 a {
   text-decoration: none;
   font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  padding: 0rem 0.4rem;
   list-style: none;
   color: black;
 }
 a:hover {
-  font-size: larger;
   color: white;
   font-style: italic;
+  font-size: 2.2rem;
 }
+
 main {
   text-align: center;
   padding-bottom: 4rem;
+  padding-top: 10rem;
 }
 
 section {
+  padding: 2rem 0rem;
   background-image: url(../images/fondo_blanco.jpg);
 }
 
-h2 {
+h2,
+h3 {
   font-family: "Josefin Sans", sans-serif;
+  text-transform: capitalize;
+}
+h2 {
   font-size: 3rem;
   font-weight: bold;
   word-spacing: 0.3;
-  text-transform: capitalize;
 }
 
 h3 {
-  font-family: "Josefin Sans", sans-serif;
   font-size: 2.5rem;
   word-spacing: 0.3rem;
   text-align: center;
-  text-transform: capitalize;
 }
 p {
   font-family: "Nunito Sans", sans-serif;
