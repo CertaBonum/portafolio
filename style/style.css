@@ -9,17 +9,18 @@ html {
 }
 
 body {
-  background-color: #faaca8;
-  background-image: linear-gradient(19deg, #faaca8 0%, #ddd6f3 100%);
+  background-color: #2f3330;
+  background-image: linear-gradient(19deg, #2f3330 0%, #ddd6f3 100%);
   background-attachment: fixed;
   height: fit-content;
   width: fit-content;
 }
 header {
+  background-color: #0a0b0a;
   height: 5rem;
   width: 100vw;
   text-transform: uppercase;
-  padding: 2rem 4rem 0rem 1rem;
+  padding: 2rem 4rem 5rem 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -34,7 +35,7 @@ h1 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 3rem;
   font-weight: bolder;
-  color: black;
+  color: #d3e6da;
 }
 
 a {
@@ -43,7 +44,7 @@ a {
   font-size: 2rem;
   padding: 0rem 0.4rem;
   list-style: none;
-  color: black;
+  color: #d3e6da;
   border: transparent;
 }
 a:hover,
@@ -72,7 +73,7 @@ h3 {
   text-transform: capitalize;
 }
 h2 {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: bold;
 }
 
@@ -99,12 +100,19 @@ p {
 .parrafo_central {
   width: 65vw;
   font-size: 2rem;
+  font-weight: 1000;
 }
 .parrafo_section {
   padding: 2rem 0rem;
 }
 .figure_de_perfil {
-  border: solid white 1.7rem;
+  border: solid #d3e6da 1rem;
+  border-radius: 3rem;
+}
+/* se agrega border radius para ambas clases, para evitar que la esquina inferios izquierda de la imagen no se superponga sobre el borde establecido en la clase figure_de_perfil */
+.img_de_perfil {
+  width: 27rem;
+  border-radius: 3rem;
 }
 .h2 {
   align-self: center;
@@ -112,10 +120,6 @@ p {
   padding-top: 2rem;
 }
 
-.img_de_perfil {
-  width: 27rem;
-  border: transparent;
-}
 footer {
   text-align: center;
 }
