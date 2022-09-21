@@ -59,7 +59,7 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 10rem 3rem;
+  padding: 10rem 0rem;
 }
 
 section {
@@ -106,7 +106,9 @@ p {
   padding: 2rem 0rem;
 }
 .figure_de_perfil {
-  border: solid #f8f9fa 0.8rem;
+  border: solid 0.8rem;
+  border-image-source: linear-gradient(45deg, #f8f9faab, #0a0b0a);
+  border-image-slice: 5;
 }
 .img_de_perfil {
   width: 27rem;
