@@ -119,10 +119,7 @@ p {
 footer {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #0a0b0a;
   height: 8rem;
 }
-/*.imagen_footer {
-  width: 5rem;
-  height: 3rem;
- } */
