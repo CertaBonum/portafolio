@@ -10,7 +10,6 @@ html {
 
 body {
   background-color: #6e7985;
-  /*background-image: linear-gradient(19deg, #2f3330 0%, #ddd6f3 100%);*/
   background-attachment: fixed;
   height: fit-content;
   width: fit-content;
@@ -27,8 +26,7 @@ header {
   align-items: center;
   position: fixed;
 }
-
-li {
+.lista_eje_x {
   display: inline;
 }
 h1 {
@@ -65,9 +63,8 @@ main {
 }
 
 section {
-  padding: 2rem 0rem;
-  background-image: url(../images/fondo_blanco.jpg);
-  padding: 2rem 3rem 4rem;
+  background-color: #f8f9faab;
+  padding: 2rem 2rem 4rem;
 }
 
 h2,
@@ -119,7 +116,13 @@ p {
   padding-bottom: 1rem;
   padding-top: 2rem;
 }
-
 footer {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #0a0b0a;
+  height: 8rem;
 }
+/*.imagen_footer {
+  width: 5rem;
+  height: 3rem;
+ } */
