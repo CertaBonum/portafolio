@@ -26,8 +26,9 @@ header {
   align-items: center;
   position: fixed;
 }
-.lista_eje_x {
-  display: inline;
+ul {
+  display: flex;
+  flex-flow: row wrap;
 }
 h1 {
   font-family: "Josefin Sans", sans-serif;
