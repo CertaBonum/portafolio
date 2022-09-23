@@ -30,12 +30,6 @@ ul {
   display: flex;
   flex-flow: row wrap;
 }
-h1 {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 3rem;
-  font-weight: bolder;
-  color: #f8f9fa;
-}
 
 a {
   text-decoration: none;
@@ -46,13 +40,17 @@ a {
   color: #f8f9fa;
   border: transparent;
 }
+h1 a {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #f8f9fa;
+}
 .active {
   color: #f8f9fa;
-  border-left: solid #f8f9fa 0.1rem;
-  border-right: solid #f8f9fa 0.1rem;
-  font-style: italic;
+  border-bottom: solid #f8f9fa;
 }
-a:hover {
+li a:hover {
   font-style: italic;
 }
 main {
