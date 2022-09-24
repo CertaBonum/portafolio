@@ -10,9 +10,6 @@ html {
 
 body {
   background-color: #6e7985;
-  background-attachment: fixed;
-  height: fit-content;
-  width: fit-content;
 }
 header {
   background-color: #0a0b0a;
